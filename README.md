@@ -10,7 +10,7 @@ There are four different terrain types and each terrain has a different elevatio
 
 In this repo, there are three different maps to decode.
 
-More information canm be found in the `Specification.txt`
+More information can be found in the `Specification.txt`
 
 ## How to run
 
@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 python main.py
 ```
 
-### Solution
+## Solution
 
 1. Create a map by population a numpy array using the terrains given.
 2.  If the number assign to the array square is within the range the mountain, assing the square to 1, otherwise 0.
@@ -31,15 +31,15 @@ python main.py
 ## Results 
 
 ### Map1 ( small : 15*30)
-![MAP 1](https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map1.png)
+![MAP 1](https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map_1.png)
 > "91"
 
 ### Map2 ( Medium : 30*60 )
-![MAP 2](https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map2.png)
+![MAP 2](https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map_2.png)
 >"07"
 
 ### Map3 ( Large : 60 * 120)
-![MAP 3](https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map3.png)
+![MAP 3](https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map_3.png)
 >"74"
 
 ## Conclusion

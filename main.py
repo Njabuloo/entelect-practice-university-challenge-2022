@@ -59,6 +59,8 @@ def create_map(lines):
             index_num = int(map_data[count: count + 3])
             count += 3
             map[i][j] = 1 if index_num >= mountain[0] else 0
+    map_append = np.zeros(map_shape, dtype=int)
+    map = np.append(map_append, map, axis=0)
     return map
 
 
@@ -82,9 +84,8 @@ def to_file(result, filename):
     file.write(result)
     file.close()
 
+
 # get the number from the image
-
-
 def get_num(img_name):
     img_path = "./" + img_name + '.png'
     img = cv2.imread(img_path)
@@ -95,7 +96,7 @@ def get_num(img_name):
 
 
 def run():
-    maps = ['map1', 'map2', 'map3']
+    maps = ['map_1', 'map_2', 'map_3']
     for map in maps:
         lines = read_from_file(map)
         map_arr = create_map(lines)
