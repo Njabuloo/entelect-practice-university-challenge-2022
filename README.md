@@ -23,9 +23,9 @@ python main.py
 
 ## Solution
 
-1. Create a map by population a numpy array using the terrains given.
-2.  If the number assign to the array square is within the range the mountain, assing the square to 1, otherwise 0.
-3.  create a picture from the map array.
+1. Create a map by populating a numpy array using the terrains given.
+2.  If the number assign to the array square is within the range of the mountain, assing the square to 1, otherwise 0.
+3.  create an image from the map array.
 4.  use an ocr library (easyocr) to extract the hidden number in the image.
 
 ## Results 
