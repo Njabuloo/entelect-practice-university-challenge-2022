@@ -59,8 +59,6 @@ def create_map(lines):
             index_num = int(map_data[count: count + 3])
             count += 3
             map[i][j] = 1 if index_num >= mountain[0] else 0
-    map_append = np.zeros(map_shape, dtype=int)
-    map = np.append(map_append, map, axis=0)
     return map
 
 
@@ -92,7 +90,6 @@ def get_num(img_name):
     img = cv2.imread(img_path)
     reader = easyocr.Reader(['en'], gpu=False, verbose=False)
     results = reader.readtext(img, allowlist='0123456789')
-    print(results)
     result = results[0][1]
     return result
 
