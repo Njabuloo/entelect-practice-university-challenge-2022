@@ -34,12 +34,12 @@ python main.py
 ![MAP 1](https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map1.png)
 > "91"
 
-### Map2 { Medium : 30*60}
-![MAP 2] (https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map2.png)
+### Map2 ( Medium : 30*60 )
+![MAP 2](https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map2.png)
 >"07"
 
 ### Map3 ( Large : 60 * 120)
-![MAP 3] (https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map3.png)
+![MAP 3](https://github.com/Njabuloo/entelect-practice-university-challenge-2022/blob/main/map3.png)
 >"74"
 
 ## Conclusion
