@@ -10,7 +10,7 @@ There are four different terrain types and each terrain has a different elevatio
 
 In this repo, there are three different maps to decode.
 
-More information can be found in the `Specification.txt`
+More information can be found in the `Specification.pdf`
 
 ## How to run
 
@@ -44,6 +44,6 @@ python main.py
 
 ## Conclusion
 
-The solution works from the small and medium maps. 
+The solution works for the small and medium maps. 
 
-It does not work for the large map, this might be caused by using different fonts when training the easyocr detection model abd also the noise in the image.
+It does not work for the large map, this might be caused by using different fonts when training the easyocr detection model and also the noise in the image.
